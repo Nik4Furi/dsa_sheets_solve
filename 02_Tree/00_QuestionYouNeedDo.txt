@@ -1,0 +1,18 @@
+1. All traversal Question
+    a. Inorder
+    b. PreOrder
+    c. PostOrder
+    d. Level Order
+    e. Reverse Level Order
+
+2. Count No of leaf nodes
+
+3. Height of bt
+
+4. Diameter of Bt
+
+5. Balanced tree
+
+6. Check identical
+
+7. Target sum
