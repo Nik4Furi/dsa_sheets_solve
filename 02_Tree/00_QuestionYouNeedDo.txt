@@ -16,3 +16,5 @@
 6. Check identical
 
 7. Target sum
+
+8. Zig-zag traversal
