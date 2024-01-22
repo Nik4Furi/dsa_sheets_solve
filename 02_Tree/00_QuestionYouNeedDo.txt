@@ -18,3 +18,9 @@
 7. Target sum
 
 8. Zig-zag traversal
+
+9. Boundary Traversal
+
+10.  Vertical traversal
+
+11. Top view 
