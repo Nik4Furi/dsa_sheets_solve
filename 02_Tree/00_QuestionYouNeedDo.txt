@@ -24,3 +24,11 @@
 10.  Vertical traversal
 
 11. Top view 
+
+12. Bottom View
+
+13. Left View
+
+14. Right View
+
+15. Diagonal Traversal
