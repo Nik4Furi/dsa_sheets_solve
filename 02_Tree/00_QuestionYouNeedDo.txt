@@ -1,0 +1,39 @@
+1. All traversal Question
+    a. Inorder
+    b. PreOrder
+    c. PostOrder
+    d. Level Order
+    e. Reverse Level Order
+
+2. Count No of leaf nodes
+
+3. Height of bt
+
+4. Diameter of Bt
+
+5. Balanced tree
+
+6. Check identical
+
+7. Target sum
+
+8. Zig-zag traversal
+
+9. Boundary Traversal
+
+10.  Vertical traversal
+
+11. Top view 
+
+12. Bottom View
+
+13. Left View
+
+14. Right View
+
+15. Diagonal Traversal
+
+16. Max path sum
+
+17. LCA (Lowest Common Ancestor)
+
