@@ -87,6 +87,47 @@ void inorder(BST*&root){
     inorder(root->right);
 }
 
+//------------ Morris Traversal
+void MorrisTraveral(BST*& root) 
+{ 
+	BST *curr, *prev; 
+
+	if (root == NULL) 
+		return; 
+
+	curr = root; 
+
+	while (curr != NULL) { 
+
+		if (!curr->left) { 
+			cout << curr->data << " "; 
+			curr = curr->right; 
+		} 
+
+		else { 
+
+			/* Find the previous (prev) of curr */
+			prev = curr->left; 
+			while (prev->right != NULL && prev->right != curr) 
+				prev = prev->right; 
+
+			/* Make curr as the right child of its
+			previous */
+			if (prev->right == NULL) { 
+				prev->right = curr; 
+				curr = curr->left; 
+			} 
+
+			/* fix the right child of previous */
+			else { 
+				prev->right = NULL; 
+				cout << curr->data << " "; 
+				curr = curr->right; 
+			} 
+		} 
+	} 
+} 
+
 //preorder traversal, NLR
 void preorder(BST*&root){
     //base case
@@ -268,6 +309,10 @@ int main() {
     // cout << endl << "Finding the inorder successor, key<data just "<<endl;
     // inorderSuccessor(root,8);
     // cout << successor <<endl;
+
+    //---------- Morris Traversal
+    cout << endl<< "Morris Traversal "<<endl;
+    MorrisTraveral(root);
 
     //-------------IMplment the deletion of the a node in bst
     int key;
